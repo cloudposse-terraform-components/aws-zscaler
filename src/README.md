@@ -69,9 +69,9 @@ import:
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_ec2_zscaler"></a> [ec2\_zscaler](#module\_ec2\_zscaler) | cloudposse/ec2-instance/aws | 0.32.2 |
+| <a name="module_ec2_zscaler"></a> [ec2\_zscaler](#module\_ec2\_zscaler) | cloudposse/ec2-instance/aws | 0.50.0 |
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../account-map/modules/iam-roles | n/a |
-| <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.24.1 |
+| <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
 
 ## Resources
 
