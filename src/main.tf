@@ -48,7 +48,7 @@ module "ec2_zscaler" {
   count = var.zscaler_count
 
   source       = "cloudposse/ec2-instance/aws"
-  version      = "1.6.1"
+  version      = "2.0.0"
   ami          = local.enabled ? data.aws_ami.amazon_linux_2[0].id : ""
   ssh_key_pair = null
   ami_owner    = local.ami_owner
