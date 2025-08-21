@@ -21,7 +21,6 @@ chamber write zscaler key <value>
 
 Where `<value>` is the ZScaler App Connector Provisioning Key. For more information on how to generate this key, see:
 [ZScaler documentation on Configuring App Connectors](https://help.zscaler.com/zpa/configuring-connectors).
-
 ## Usage
 
 **Stack Level**: Regional
@@ -46,7 +45,10 @@ import:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -117,12 +119,17 @@ import:
 |------|-------------|
 | <a name="output_instance_id"></a> [instance\_id](#output\_instance\_id) | Instance ID |
 | <a name="output_private_ip"></a> [private\_ip](#output\_private\_ip) | Private IP of the instance |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/zscaler) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-zscaler&utm_content=)
+
